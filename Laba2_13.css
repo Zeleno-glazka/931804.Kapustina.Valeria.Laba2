@@ -1,0 +1,47 @@
+#Big_block {
+    background-color: aqua;
+    border: green 2px solid;
+}
+
+#block_1 {
+    float: left;
+    background-color: bisque;
+    height: 80px;
+    width: 500px;
+}
+
+#block_2 {
+    background-color: darkgray;
+    overflow: auto;
+}
+
+img {
+    float: right;
+    width: 50%;
+    height: 50%;
+
+}
+
+#Content_2 {
+    clear: both;
+}
+
+@media  (min-width: 960px) {
+    #block_2 {
+        background-color: darkgray;
+        margin-left: 305px;
+    }
+
+}
+
+@media (max-width: 959px) {
+    #block_1 {
+        width: 150px;
+    }
+
+    img {
+        width: 220px;
+        height: 200px;
+    }
+   
+}

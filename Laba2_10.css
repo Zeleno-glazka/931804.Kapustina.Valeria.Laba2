@@ -1,0 +1,13 @@
+  
+#block_1{
+    background-color: #7fffd4;
+    margin: 15px;
+    width: 180px;
+    height: 100px;
+    float: left;
+    
+}
+#block_2{
+    background-color:#ffe4c4 ;
+    clear: both;
+}

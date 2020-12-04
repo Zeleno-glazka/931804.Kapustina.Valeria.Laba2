@@ -1,0 +1,51 @@
+#Big_block {
+    background-color: aqua;
+    border: green 2px solid;
+}
+
+#block_1 {
+    float: left;
+    background-color: bisque;
+    height: 80px;
+    width: 500px;
+}
+
+#block_2 {
+    background-color: darkgray;
+    overflow: auto;
+}
+
+#Content_2 {
+    clear: both;
+}
+
+@media(min-width: 900px) {
+    #block_2 {
+        background-color: darkgray;
+        margin-left: 305px;
+    }
+}
+
+@media(max-width: 899px) {
+    #block_1 {
+        background-color: none;
+        height: 0;
+        width: 100%;
+    }
+
+    ul {
+        background-color: bisque;
+    }
+
+    li {
+        display: inline;
+    }
+
+    #block_2 {
+        background-color: darkgray;
+        margin-top: 50px;
+        clear: left;
+
+    }
+}
+

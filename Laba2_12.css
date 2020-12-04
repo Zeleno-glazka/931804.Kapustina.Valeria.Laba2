@@ -1,0 +1,31 @@
+#Big_block {
+    background-color: aqua;
+    border: green 2px solid;
+}
+
+#block_1 {
+    float: left;
+    background-color: bisque;
+    height: 80px;
+    width: 300px;
+}
+@media (min-width: 700px) {
+    #block_2 {
+        background-color: darkgray;
+        margin-left: 305px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 699px) {
+    #block_1 {
+        width: 120px;
+    }
+
+    #block_2 {
+        background-color: darkgray;
+        margin-top: 5em;
+        clear: left;
+        width: 360px;
+    }
+}

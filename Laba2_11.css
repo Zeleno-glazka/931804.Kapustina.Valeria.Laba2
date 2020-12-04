@@ -1,0 +1,9 @@
+#content{
+    overflow:auto;
+    background-color: #00ffff;
+    text-align: left;
+    border:1px solid green;
+ }
+ img{
+     float: right;
+ }
